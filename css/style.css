@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+@import "null.css";
+body {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+.wrapper {
+  max-width: 1920px;
+}
+.container {
+  max-width: 810px;
+  margin: 0 auto;
+}
+h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1e212c;
+  margin: 0px 0px 26px 0px;
+}
+.year {
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #787a80;
+  padding: 0px 0px 0px 24px;
+  margin: 0px 24px 0px 0px;
+  background: url("../img/1.svg") 0 2px no-repeat;
+}
+.minute {
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #787a80;
+  padding: 0px 0px 0px 24px;
+  margin: 0px 410px 0px 0px;
+  background: url("../img/1.svg") 0 2px no-repeat;
+}
+.time {
+  margin: 0px 0px 40px 0px;
+}
+.minute__year {
+  display: inline-block;
+  background: url("../img/2.svg") 0 5px no-repeat;
+}
+.share {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1e212c;
+  margin: 0px 12px 0px 0px;
+}
+.facebook {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0px 4px -3px 0px;
+  background: url("../img/Vector1.svg") 0 2px no-repeat;
+}
+.twitter {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0px 11px -4px 0px;
+  background: url("../img/Vector2.svg") 0 4px /20px no-repeat;
+}
+.linked {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0px 0px -3px 0px;
+  background: url("../img/Vector3.svg") 0 2px /20px no-repeat;
+}
+.sending {
+  display: inline-block;
+  max-width: 150px;
+  /* margin: 0px 0px 0px 410px; */
+}
+.twitter .linked img {
+  margin: 0px 0px 60px 0px;
+}
+.image {
+  max-width: 100%;
+  margin: 0px 0px 60px 0px;
+}
+.subtitle {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1e212c;
+}
+.subtitle {
+  margin: 0px 0px 24px 0px;
+}
+.normal__text {
+  margin: 0px 0px 26px 0px;
+}
+.normal1__text {
+  margin: 0px 0px 48px 0px;
+}
+.subtitle.quote {
+  background: url("../img/Quotation/braces.svg") 0 0 no-repeat;
+  padding: 0px 0px 0px 60px;
+  margin: 0px 0px 48px 0px;
+}
+.norma__text {
+  margin: 0px 0px 24px 0px;
+}
+.numbering {
+  margin: 0px 0px 48px 0px;
+}
+/* .roster {
+  margin: 0px 0px 24px 0px;
+} */
+.list {
+  margin: 0px 0px 24px 0px;
+}
+.list li {
+  /* max-width: 390px; */
+  margin: 0px 0px 4px 0px;
+}
+.list li:last-child {
+  margin-bottom: 0px;
+}
+.item__list {
+  padding: 0px 0px 0px 30px;
+  background: url("../img/Vector.svg") 0 4px no-repeat;
+}
+.footer__text {
+  margin: 0px 0px 63px 0px;
+}
+.footer__share {
+  max-width: 150px;
+  margin: 0px 0px 0px auto;
+}
